@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <title>Traversy Media</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./logo.webp" alt="image">
+            </div>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#eBook">eBook</a></li>
+                <li><a href="#freelance">Freelance Mastery</a></li>
+                <li><a href="#youTube">YouTube</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner-header">
+            <div class="container">
+                    <h5 class="name color">Traversy Media</h5>
+                    <h1 class="l-heading">Web Development Courses For <span class="color">Everyone</span></h1>
+                    <p class="lead">Practical project-based courses that are easy to understand and straight to the point with NO FLUFF</p>
+                    <a href="#courses" class="btn button">Start learning today</a>
+                    <div class="stats">
+                        <div class="stat">
+                            <i class="fas fa-cogs fa-4x"></i>
+                            <h3>15</h3>
+                            <p class="lead">Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-graduation-cap fa-4x"></i>
+                            <h3>400K+</h3>
+                            <p class="lead">Course Students</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fab fa-youtube fa-4x"></i>
+                            <h3>1.8M</h3>
+                            <p class="lead">Subscribers</p>
+                        </div>
+                     </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Mail -->
+    <section id="mail" class="bg-color py-1">
+        <div class="container">
+            <h1>Notify Me Of New Courses</h1>
+            <div class="mail">
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <button class="button notify" value="NOTIFY ME">NOTIFY ME</button>
+                </form> 
+            </div>
+        </div> 
+    </section>
+
+
+    <!-- Courses -->
+    <section id="courses" class="bg-pattern-dark py-2">
+        <div class="container">
+            <h1 class="m-heading"><span class="color">Latest&nbsp;</span>Courses</h1>
+            <p class="lead">Hover over the course to see this months discount code</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="./course-img/tailwind_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner</p>
+                        <h3>Tailwind CSS From Scratch</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/react_front_to_back_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner - Intermediate</p>
+                        <h3>React Front To Back 2022</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/50projects_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner</p>
+                        <h3>50 Projects in 50 Days - HTML, CSS & JavaScript</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="m-heading py-2"><span class="color">Popular&nbsp;</span>Courses</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="./course-img/html_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner</p>
+                        <h3>Modern HTML & CSS From The Beginning</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/js_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner</p>
+                        <h3>Modern JavaScript From The Beginning</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/next_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>Next.js Dev To Deployment</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+            </div>
+            <button class="button show-more">show more</button>
+
+            <!-- After Show more -->
+            <div class="cards two">
+                <div class="card">
+                    <img src="./course-img/mern_ecommerce_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>MERN eCommerce From Scratch</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/node_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>Node.js API Masterclass</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/js20_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Beginner</p>
+                        <h3>20 Vanilla JavaScript Projects</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/django_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>Python Django Dev To Deployment</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/php_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>PHP MVC OOP - Build a Framework</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./course-img/electron_small.png" alt="" id="course">
+                    <div class="info">
+                        <p>Intermediate</p>
+                        <h3>Electron From Scratch</h3>
+                    </div>
+                    <div class="footer">
+                        <img src="./udemy-logo.png" alt="" id="udemy">
+                        <a href="">View On Udemy</a>
+                    </div>
+                </div>
+            </div>
+            <button class="button hide">hide courses</button>
+        </div>
+    </section>
+
+
+    <!-- E Book -->
+
+    <section id="eBook" class="bg-col-dark py-2">
+        <div class="container">
+            <div class="book">
+                <img src="./ebook.png" alt="book">
+            </div>
+            <div class="guide">
+                <h3 class="name">Brad Traversy's</h3>
+                <h2>Web Dev Guide</h2>
+                <p class="lead">The most complete guide to web development technologies on the planet</p>
+                <p class="lead">This guide also goes into different programming concepts, careers and even mental health. 
+                </p>
+                <button class="buy button">GET IT FOR $9.99</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelance -->
+    <section id="freelance" class="bg-pattern-light py-1">
+        <div class="container">
+            <div class="article p-1">
+                <h4>New Course</h4>
+                <h2 class="s-heading">Freelance Mastery</h2>
+                <p class="lead">Brad Traversy and Kyle Prinsloo have teamed up to bring you a business-based course to show you how to create a successful freelancing business from the ground up.</p>
+                <button class="more button">GET IT FOR $9.99</button>
+            </div>
+            <div class="free">
+                <img src="./flm-logo.png" alt="freeLance">
+            </div>
+        </div>
+    </section>
+
+    <!-- Who -->
+    <section id="who" class="bg-pattern-dark py-2">
+        <div class="container">
+            <h1 class="m-heading">Who Is <span class="color">Brad Traversy?</span></h1>
+            <div class="photo">
+                <div class="box">
+                    <img src="./brad.png" alt="">
+                </div>
+                <div class="box p-2">
+                    <p>I started coding in 2007 at the age of 26. I became a full-time educator & content creator in 2016. </p>
+                    <p>I show people that they don't have to be a straight A student or a genius to learn to code. I break down complex concepts by showing you how to implement them in project-based courses and tutorials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- YouTube -->
+    <section id="youTube" class="py-2">
+        <div class="container">
+            <div class="photo">
+                <div class="box">
+                    <img src="./laptop.png" alt="">
+                </div>
+                <div class="box">
+                    <h2 class="s-heading">Traversy Media on YouTube</h2>
+                    <p class="lead">Our YouTube channel has 1000+ free tutorials and crash courses</p>
+                    <button class="visit button">visit channel</button>
+                    <button class="content button">content guide</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crash Course -->
+    <section id="crash" class="py-1">
+        <div class="container">
+            <h1 class="m-heading">Popular Crash Courses</span></h1>
+            <p class="lead">Visit The Traversy Media <span class="color-two">YouTube channel</span> for many more</p>
+        </div>
+    </section>
+
+    <section id="course" class="bg-pattern-dark py-3">
+        <div class="container">
+            <div class="box">
+                <div class="item">
+                    <img src="./YT/2022-guide.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/react-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/vue-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/angular-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/next-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/typescript-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/svelte-crash-course.png" class="image" alt="">
+                </div>
+                <div class="item">
+                    <img src="./YT/node-crash-course.png" class="image" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join -->
+    <section id="join" class="py-2 bg-pattern-light">
+        <div class="container">
+            <div class="photo">
+                <div class="box">
+                    <img src="./patreon-logo.png" alt="">
+                </div>
+                <div class="box">
+                    <h2 class="s-heading">Join The Patreon</h2>
+                    <p class="lead">Become a patron of Traversy Media to keep the free content coming </p>
+                    <h3 class="name">Get free and discounted courses</h3>
+                    <button class="ani button">become a patron</button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-color py-1">
+        <div class="container">
+            <h2>Follow Traversy Media</h2>
+            <div class="social">
+                <a href="www.youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
